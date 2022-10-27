@@ -1,0 +1,40 @@
+* {
+  justify-content: center;
+}
+.body-style {
+  display: flex;
+  /* justify-content: space-evenly; */
+  gap: 40px;
+}
+.first-card-style {
+  /* border-style: solid;
+border-color: hsl(0, 0%, 73%); */
+  background-color: white;
+  height: 100px;
+  width: 250px;
+  border-radius: 12px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  padding: 20px;
+  box-shadow: 3px 5px 10px 3px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+}
+.flex-setting {
+  display: flex;
+  justify-content: space-between;
+}
+.first-card-style2 {
+  /* border-style: groove; */
+  background-color: #353a47;
+  height: 80px;
+  width: 250px;
+  /* border-radius: 12px; */
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  padding: 20px;
+  color: white;
+  box-shadow: 3px 5px 10px 3px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+}
+
+/* 2nd card */
